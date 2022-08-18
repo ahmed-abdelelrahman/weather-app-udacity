@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>weather-app</title>
+</head>
+<body >
+<div class="inputs">
+
+<input type="text" id="zip" placeholder="enter zip code" value="48111">
+
+<!-- <label for="country"></label>
+<input type="text" id="country" placeholder="enter country"> -->
+
+<textarea name="feelings" id="feeling" cols="2 " placeholder="enter your feeling" rows="10"></textarea>
+<button id="generate">generate</button>
+</div>
+
+<div class="output">
+<div class="section1">
+    <span>currentdate :<p id="currentdate"></p></span>
+    <span>current temprature:<p id="temp"></p></span>
+    
+</div>
+<div class="section2">
+    <span>your feeling: <p class="feelings"></p></span>
+    <span> current weather:<p class="weather"></p></span>
+
+</div>
+
+
+</div>
+<div id="error">
+
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
